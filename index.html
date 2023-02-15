@@ -5,6 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>F8 Project 01</title>
+
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- RESET CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
         <!-- nhúng Google font -->
@@ -15,24 +36,24 @@
             rel="stylesheet"
         /> -->
 
-        <!-- Down font về nhúng vào -->
+        <!-- EMBED FONTS -->
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+        <!-- STYLE -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        <!-- Thẻ main bao bọc toàn bộ bố cục của trang -->
-        <main id="home">
-            <!-- HEADER -->
-            <header class="fixed-header">
+        <!-- HEADER -->
+        <header class="fixed-header">
                 <div class="content">
                     <nav class="navbar">
                         <!-- Logo -->
-                        <a href="#!">
+                        <a href="#">
                             <img src="./assets/img/Logo.svg" alt="Besnik." />
                         </a>
                         <!-- Navigation -->
                         <ul>
-                            <li><a href="#home">Home</a></li>
+                            <li><a href="#">Home</a></li>
                             <li><a href="#features">Features</a></li>
                             <li><a href="#service">Service</a></li>
                             <li><a href="#listed">Listed</a></li>
@@ -46,7 +67,10 @@
                         </div>
                     </nav>
                 </div>
-            </header>
+        </header>
+
+        <!-- Thẻ main bao bọc toàn bộ bố cục của trang trừ Header, Nav, Footer -->
+        <main>
             <!-- HERO -->
             <div class="hero">
                 <div class="content">
@@ -72,13 +96,12 @@
                 </div>
             </div>
 
-
             <!-- CLIENTS -->
             <div class="clients-wrap">
                 <div class="content">
                     <div class="row">
                         <!-- Logo -->
-                        <a href="#!">
+                        <a href="#">
                             <img src="./assets/img/Logo.svg" alt="Besnik." />
                         </a>
                         <div class="stars"></div>
@@ -339,8 +362,10 @@
                     <img class="newsletter-img" src="./assets/img/newsletter-img.svg" alt="Newsletter">
                 </div>
             </div>
+        </main>
 
-            <div id="listed" class="footer-wrap">
+        <!-- FOOTER -->
+        <div id="listed" class="footer-wrap">
                 <div class="content">
                     <div class="content-details">
                         <ul>
@@ -403,14 +428,14 @@
                     </div>
                     <div class="copyright-part">
                         <div>
-                            <a href="#!">
+                            <a href="#">
                                 <img class="logo" src="./assets/img/footer-logo.svg" alt="Besnik.">
                             </a>
                         </div>
                         <p class="copyright">Copyright 2020.com, All rights reserved.</p>
                     </div>
                 </div>
-            </div>
-        </main>
+        </div>
+        
     </body>
 </html>

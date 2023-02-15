@@ -120,7 +120,8 @@ a {
 /* ========= HERO ========= */
 .hero {
     position: relative;
-    /* display: flex; */
+    display: flex;
+    align-items: center;
     background: #e6f0ff;
     /* sửa lại để ngôi nhà hiện dính chân vào đáy màn hình */
     height: calc(100vh - 92px);
@@ -128,7 +129,7 @@ a {
 
 .hero-wrap .info {
     max-width: 51%;
-    padding-top: 130px;
+    /* padding-top: 130px; */
 }
 
 .hero-wrap .subtitle {
