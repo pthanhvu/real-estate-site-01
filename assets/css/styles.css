@@ -55,11 +55,12 @@ a {
 
 /* ========= HEADER ========= */
 
-.header {
-    position: relative;
-    /* display: flex; */
+.fixed-header {
     background: #e6f0ff;
-    height: 100vh;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
 
 /* HEADER - navbar */
@@ -68,7 +69,8 @@ a {
     /* Để các nội dung trong thanh này chuyển từ trên xuống thành nằm ngang */
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
+
     /* Để margin-top bị margin collapse nên đổi thành padding-top */
 }
 
@@ -111,9 +113,16 @@ a {
 }
 
 /* ========= HERO ========= */
+.hero {
+    position: relative;
+    /* display: flex; */
+    background: #e6f0ff;
+    height: 100vh;
+}
+
 .hero-wrap .info {
     max-width: 51%;
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero-wrap .subtitle {
