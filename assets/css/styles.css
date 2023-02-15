@@ -16,6 +16,11 @@ body {
     font-family: "Poppins";
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 /* CSS FOR COMMON PARTS */
 a {
     text-decoration: none;
@@ -217,7 +222,7 @@ a {
 
 /* ========= HOW IT WORKS ========= */
 .how-it-works-wrap {
-    margin-top: 160px;
+    padding-top: 160px;
 }
 .how-it-works-wrap .line-above {
     display: block;
@@ -495,7 +500,7 @@ a {
 }
 
 .stats-wrap .desc {
-    margin: 24px 0 101px;
+    margin: 24px 0;
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -597,9 +602,12 @@ a {
 }
 
 /* ========= STATS ========= */
+.newsletter-wrap {
+    margin-top: 102px;
+}
 .newsletter-wrap .content {
     position: relative;
-    margin-top: 39px;
+    padding-top: 39px;
     background-color: #063183;
     height: 370px;
     border-radius: 20px;
