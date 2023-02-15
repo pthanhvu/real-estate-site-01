@@ -117,7 +117,8 @@ a {
     position: relative;
     /* display: flex; */
     background: #e6f0ff;
-    height: 100vh;
+    /* sửa lại để ngôi nhà hiện dính chân vào đáy màn hình */
+    height: calc(100vh - 92px);
 }
 
 .hero-wrap .info {
